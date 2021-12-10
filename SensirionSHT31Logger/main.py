@@ -60,3 +60,4 @@ while True:
 	if system == "Linux":
 		temperature, humidity = asyncio.run(getdata_linux())
 	db.record_logs(conf['Machine'],[[conf['Sensors']['humidity']['name'], humidity],[conf['Sensors']['temperature']['name'], temperature]])
+	db.send_local_data_to_server()

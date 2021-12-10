@@ -6,7 +6,7 @@ conf = {
 		"mysql": {
 			"host":			"phys-dots-data.physik.unibas.ch",
 			"user":			"logger",
-			"password":		"CryoH4ll",
+			"password":		"********",
 			"database":		"logs",
 		}
 	},
